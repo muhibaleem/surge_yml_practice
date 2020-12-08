@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {Header, HeaderSecond} from './Components/header'
-import Footer from './Components/Footer'
+// import Footer from './Components/Footer'
 
 
 // function App() {
@@ -57,7 +57,7 @@ class App extends Component{
                 <button onClick={this.set_name}> SET NAME </button>
                 <button onClick={this.get_name}> GET NAME </button>
                 <br/>
-                <Footer/>
+                {/* <Footer/> */}
             </div>
 
         )
