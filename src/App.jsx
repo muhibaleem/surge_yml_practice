@@ -16,7 +16,7 @@ class App extends Component{
     constructor(){
         super()
         this.state={
-            name: "brother",
+            name: "client",
             email: "123@gmail.com",
             value: ""
         }
